@@ -19,7 +19,7 @@ function DateEntered() {
     console.log("Something was clicked");
     console.log(d3.event.target);
 
-    // Prevent the page from refreshing
+    // Prevent the page from refreshing so details remain on the screen.
     d3.event.preventDefault();
     
     // Select the input element and get the raw HTML node
